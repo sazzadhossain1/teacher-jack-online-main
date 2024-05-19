@@ -18,7 +18,7 @@ import teacherJackPhoto from "../../accets/TeacherJackPhoto/teacherJack.png";
 
 const Carousel = () => {
   return (
-    <div>
+    <div className="carousel_parent_div">
       <>
         <Swiper
           effect={"cube"}
@@ -34,10 +34,14 @@ const Carousel = () => {
           className="mySwiper"
         >
           <SwiperSlide>
-            <img src={certificate} alt="Certificate" />
+            <img className="carousel_img" src={certificate} alt="Certificate" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={teacherJackPhoto} alt="Teacher_Jack_Photo" />
+            <img
+              className="carousel_img"
+              src={teacherJackPhoto}
+              alt="Teacher_Jack_Photo"
+            />
           </SwiperSlide>
         </Swiper>
       </>

@@ -1,13 +1,57 @@
 import React from "react";
 import "./Home.css";
-
-import Carousel from "../Carousel/Carousel";
+import HeroSection from "../HeroSection/HeroSection";
 
 const Home = () => {
   return (
-    <div>
-      <h1>This is Home</h1>
-      <Carousel></Carousel>
+    <div className="home_parent_div">
+      {/* <HeroSection></HeroSection> */}
+      <h1>This is home</h1>
+      <h1>This is home</h1>
+      <h1>This is home</h1>
+      <h1>This is home</h1>
+      <h1>This is home</h1>
+      <h1>This is home</h1>
+      <h1>This is home</h1>
+      <h1>This is home</h1>
+      <h1>This is home</h1>
+      <h1>This is home</h1>
+      <h1>This is home</h1>
+      <h1>This is home</h1>
+      <h1>This is home</h1>
+      <h1>This is home</h1>
+      <h1>This is home</h1>
+      <h1>This is home</h1>
+      <h1>This is home</h1>
+      <h1>This is home</h1>
+      <h1>This is home</h1>
+      <h1>This is home</h1>
+      <h1>This is home</h1>
+      <h1>This is home</h1>
+      <h1>This is home</h1>
+      <h1>This is home</h1>
+      <h1>This is home</h1>
+      <h1>This is home</h1>
+      <h1>This is home</h1>
+      <h1>This is home</h1>
+      <h1>This is home</h1>
+      <h1>This is home</h1>
+      <h1>This is home</h1>
+      <h1>This is home</h1>
+      <h1>This is home</h1>
+      <h1>This is home</h1>
+      <h1>This is home</h1>
+      <h1>This is home</h1>
+      <h1>This is home</h1>
+      <h1>This is home</h1>
+      <h1>This is home</h1>
+      <h1>This is home</h1>
+      <h1>This is home</h1>
+      <h1>This is home</h1>
+      <h1>This is home</h1>
+      <h1>This is home</h1>
+      <h1>This is home</h1>
+      <h1>This is home</h1>
     </div>
   );
 };
