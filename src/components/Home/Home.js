@@ -5,53 +5,7 @@ import HeroSection from "../HeroSection/HeroSection";
 const Home = () => {
   return (
     <div className="home_parent_div">
-      {/* <HeroSection></HeroSection> */}
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
-      <h1>This is home</h1>
+      <HeroSection></HeroSection>
     </div>
   );
 };
