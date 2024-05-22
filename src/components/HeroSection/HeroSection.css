@@ -1,7 +1,30 @@
+.heroSection_grid_div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  width: 75%;
+  margin: auto;
+  /* background-color: aqua; */
+}
+.carousel_left_side {
+  /* background-color: red; */
+  width: 100%;
+  text-align: left;
+}
+.carousel_left_side h1 {
+  font-size: 40px;
+}
+.carousel_left_side p {
+  font-size: 1.25rem;
+  color: #392c7d;
+  font-weight: 500;
+}
 .mySwiper {
-  width: 60%;
+  width: 50%;
+  margin-top: 30px;
   z-index: 0;
+  /* background-color: rebeccapurple; */
 }
 .slider_img {
-  width: 60%;
+  width: 120%;
 }

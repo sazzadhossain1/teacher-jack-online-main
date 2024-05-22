@@ -39,6 +39,7 @@ const HeroSection = () => {
             shadowScale: 0.94,
           }}
           pagination={true}
+          loop={true}
           modules={[EffectCube, Pagination]}
           className="mySwiper"
         >
