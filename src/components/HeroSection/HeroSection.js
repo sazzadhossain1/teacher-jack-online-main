@@ -28,7 +28,7 @@ const HeroSection = () => {
         </p>
       </div>
 
-      <div>
+      <div className="carousel_div">
         <Swiper
           effect={"cube"}
           grabCursor={true}

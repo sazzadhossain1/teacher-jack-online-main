@@ -28,3 +28,32 @@
 .slider_img {
   width: 120%;
 }
+@media screen and (max-width: 1536px) {
+  .heroSection_grid_div {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .heroSection_grid_div {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 1167px) {
+  .heroSection_grid_div {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 1105px) {
+  .heroSection_grid_div {
+    grid-template-columns: 1fr;
+  }
+  .carousel_left_side {
+    /* background-color: red; */
+    /* width: 100%; */
+    text-align: center;
+  }
+
+  .slider_img {
+    width: 100%;
+  }
+}
