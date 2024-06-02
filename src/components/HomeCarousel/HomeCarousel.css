@@ -1,0 +1,48 @@
+.carousel_parent_div {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-image: url("../../accets/backgroundPhoto/backgroundPhoto.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+  padding: 50px;
+}
+.WhatStudents {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.carousel_div {
+  width: 75%;
+  margin: auto;
+  padding: 10px;
+}
+.carousel_cart_div {
+  width: 90%;
+  height: 400px;
+  text-align: justify;
+  /* box-shadow: 0 5px 13px 6px rgba(212, 211, 254, 0.23); */
+  border: 1px solid #e9ecef;
+  background-color: white;
+  padding: 10px;
+  border-radius: 15px;
+}
+.carousel_flex_div {
+  display: flex;
+  gap: 30px;
+}
+.carousel_image {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 2px solid rgb(88, 87, 87);
+}
+.name {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.identity {
+  font-size: 16px;
+  color: #685f78;
+}

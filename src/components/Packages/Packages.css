@@ -1,0 +1,47 @@
+.package_parent_div {
+  background-image: url("../../accets/PackagePhoto/background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+.packages_title {
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+.package_grid_div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 75%;
+  gap: 20px;
+  margin: auto;
+}
+.package_cart {
+  width: 100%;
+  cursor: pointer;
+}
+.package_title_div {
+  background-color: #22100d;
+  padding: 5px;
+  color: white;
+}
+
+.package_img {
+  width: 100%;
+  height: 273px;
+}
+
+@media screen and (max-width: 1250px) {
+  .package_grid_div {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .package_img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .package_grid_div {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

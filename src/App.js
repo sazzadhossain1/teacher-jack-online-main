@@ -21,13 +21,13 @@ function App() {
           path: "/home",
           element: <Home></Home>,
         },
-        {
-          path: "/about",
-          element: <About></About>,
-        },
+          {
+              path: "/about",
+            element: <About></About>,
+          },
         {
           path: "/services",
-          element: <Services></Services>,
+           element: <Services></Services>,
         },
         {
           path: "/contact",
