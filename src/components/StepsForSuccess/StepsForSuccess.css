@@ -10,7 +10,9 @@
 .stepsForSuccess_left_div {
   height: 450px;
 }
-
+.stepsForSuccess_left_div h1 {
+  font-size: 37px;
+}
 .stepsForSuccess_logo_div {
   display: flex;
   justify-content: center;
