@@ -1,6 +1,7 @@
 .stepsForSuccess_parent_div {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  align-items: center;
   width: 75%;
   margin: auto;
   margin-bottom: 30px;
@@ -32,6 +33,50 @@
 .logo {
   height: 3rem;
 }
+.joinFirst_div {
+  display: none;
+}
+.joinFirst {
+  width: 45%;
+}
 .join {
   width: 45%;
+}
+
+@media screen and (max-width: 1250px) {
+  .stepsForSuccess_parent_div {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .joinFirst_div {
+    display: block;
+  }
+  .joinSecond_div {
+    display: none;
+  }
+}
+@media screen and (max-width: 650px) {
+  .two_cart_flex_div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0;
+    width: 100%;
+  }
+  .stepsForSuccess_logo_div {
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 341px) {
+  .two_cart_flex_div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0;
+    width: 100%;
+  }
+  .stepsForSuccess_logo_div {
+    margin-top: 10px;
+  }
+
+  .stepsForSuccess_left_div h1 {
+    font-size: 26px;
+  }
 }

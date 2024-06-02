@@ -46,3 +46,23 @@
   font-size: 16px;
   color: #685f78;
 }
+
+@media screen and (max-width: 1418px) {
+  .carousel_div {
+    width: 85%;
+    margin: auto;
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .carousel_div {
+    width: 85%;
+    margin: auto;
+    padding: 10px;
+  }
+
+  .carousel_cart_div {
+    height: 450px;
+    text-align: left;
+  }
+}

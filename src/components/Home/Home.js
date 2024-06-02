@@ -12,8 +12,8 @@ const Home = () => {
       <HeroSection></HeroSection>
       <AboutTeacherJackVideo></AboutTeacherJackVideo>
       <Packages></Packages>
-      {/* <StepsForSuccess></StepsForSuccess>
-      <HomeCarousel></HomeCarousel> */}
+      <StepsForSuccess></StepsForSuccess>
+      <HomeCarousel></HomeCarousel>
     </div>
   );
 };

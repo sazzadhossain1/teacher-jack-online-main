@@ -9,6 +9,9 @@ import join from "../../accets/StepsForSuccessPhoto/join.png";
 const StepsForSuccess = () => {
   return (
     <div className="stepsForSuccess_parent_div">
+      <div className="joinFirst_div">
+        <img className="joinFirst" src={join} alt="" />
+      </div>
       <div className="stepsForSuccess_left_div">
         <h1>Steps for Success</h1>
         <div className="stepsForSuccess_logo_div ">
@@ -35,7 +38,7 @@ const StepsForSuccess = () => {
           <h3>Atted Class</h3>
         </div>
       </div>
-      <div>
+      <div className="joinSecond_div">
         <img className="join" src={join} alt="" />
       </div>
     </div>
