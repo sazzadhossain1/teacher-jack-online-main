@@ -6,6 +6,8 @@ import About from "./components/About/About";
 import Services from "./components/Services/Services";
 import Contact from "./components/Contact/Contact";
 import Profile from "./components/Profile/Profile";
+import Login from "./components/Login/Login";
+import Register from "./components/Register/Register";
 
 function App() {
   const router = createBrowserRouter([
@@ -21,13 +23,13 @@ function App() {
           path: "/home",
           element: <Home></Home>,
         },
-          {
-              path: "/about",
-            element: <About></About>,
-          },
+        {
+          path: "/about",
+          element: <About></About>,
+        },
         {
           path: "/services",
-           element: <Services></Services>,
+          element: <Services></Services>,
         },
         {
           path: "/contact",
@@ -36,6 +38,14 @@ function App() {
         {
           path: "/profile",
           element: <Profile></Profile>,
+        },
+        {
+          path: "/login",
+          element: <Login></Login>,
+        },
+        {
+          path: "/register",
+          element: <Register></Register>,
         },
       ],
     },

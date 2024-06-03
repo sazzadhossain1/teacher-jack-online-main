@@ -40,8 +40,28 @@
   height: 40px;
   border: 3px solid rgb(207, 207, 207);
   border-radius: 50%;
+  cursor: pointer;
 }
-
+.login_div {
+  background-color: white;
+  padding: 5px 20px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  width: 8%;
+  margin-left: auto;
+  margin-right: 100px;
+  border-radius: 5px;
+  /* display: none; */
+  margin-bottom: -50px;
+  margin-top: 20px;
+}
+.Login {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+.span_login {
+  margin-left: 25px;
+}
 .navbar__toggle {
   display: none;
   font-size: 24px;

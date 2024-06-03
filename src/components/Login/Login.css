@@ -1,0 +1,61 @@
+.login_parent_div {
+  margin-top: 100px;
+}
+.logo_photo {
+  width: 10%;
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+.login_input_div {
+  text-align: left;
+  margin: auto;
+  background-color: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  padding: 20px;
+  margin-bottom: 100px;
+  padding-bottom: 30px;
+}
+.input {
+  border: 1px solid rgb(231, 231, 231);
+  padding: 17px;
+  width: 95%;
+  margin-top: 15px;
+}
+.forgetPass {
+  text-decoration: none;
+}
+.forgetPass_p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.forgetPass_p:hover {
+  color: red;
+}
+.signIn_btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #ff875a;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+.signIn_btn:hover {
+  background-color: #e07953;
+  transition: all 0.5s ease-in-out;
+}
+.register_btn {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #009efb;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}
