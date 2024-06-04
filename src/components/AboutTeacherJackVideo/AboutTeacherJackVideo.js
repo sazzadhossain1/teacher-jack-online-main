@@ -104,9 +104,9 @@ const youTubePhoto = [
   },
 ];
 
-const AboutTeacherJackVideo = () => {
+const AboutTeacherJackVideo = ({ id }) => {
   return (
-    <div className="aboutTeacher_parent_div">
+    <div className="aboutTeacher_parent_div" id={id}>
       {/* <p className="about_p"></p> */}
       <h1>About Teacher Jack</h1>
       <div className="about_blank_div"></div>

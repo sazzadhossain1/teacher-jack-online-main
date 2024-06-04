@@ -2,12 +2,13 @@ import React, { useState } from "react";
 import "./Navigation.css";
 import logo from "../../accets/NaviPhoto/logo.png";
 import user from "../../accets/NaviPhoto/user.jpg";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRightFromBracket } from "@fortawesome/free-solid-svg-icons";
 
 const Navigation = () => {
   const [isActive, setIsActive] = useState(false);
+  const navigate = useNavigate();
 
   const handleToggle = () => {
     setIsActive(!isActive);
@@ -26,6 +27,14 @@ const Navigation = () => {
 
     getLoginDiv.setAttribute("hidden", "hidden");
   };
+
+  const handleAboutClick = () => {
+    navigate("/#about");
+    const element = document.getElementById("about");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <div className="navigation_parent_div">
       <nav className={`navbar ${isActive ? "active" : ""}`}>
@@ -37,16 +46,16 @@ const Navigation = () => {
             <Link to="/home">Home</Link>
           </li>
           <li className="navbar__item">
-            <Link to="/about">About</Link>
+            <Link onClick={handleAboutClick}>About</Link>
           </li>
           <li className="navbar__item">
-            <Link to="/services">Services</Link>
+            <Link>Packages</Link>
           </li>
           <li className="navbar__item">
-            <Link to="/contact">Contact</Link>
+            <Link>How it Works</Link>
           </li>
           <li className="navbar__item">
-            <Link to="/profile">Profile</Link>
+            <Link>Testimonials</Link>
           </li>
         </ul>
         <div className="navbar__user" onClick={userLoginFunction}>

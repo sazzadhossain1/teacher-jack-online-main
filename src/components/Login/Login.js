@@ -3,6 +3,10 @@ import "./Login.css";
 import logo from "../../accets/NaviPhoto/logo.png";
 import { Link } from "react-router-dom";
 const Login = () => {
+  // For Safari
+  document.body.scrollTop = 0;
+  // For Chrome, Firefox, IE and Opera
+  document.documentElement.scrollTop = 0;
   return (
     <div className="login_parent_div">
       <img className="logo_photo" src={logo} alt="" />

@@ -23,22 +23,22 @@ function App() {
           path: "/home",
           element: <Home></Home>,
         },
-        {
-          path: "/about",
-          element: <About></About>,
-        },
-        {
-          path: "/services",
-          element: <Services></Services>,
-        },
-        {
-          path: "/contact",
-          element: <Contact></Contact>,
-        },
-        {
-          path: "/profile",
-          element: <Profile></Profile>,
-        },
+        // {
+        //   path: "/about",
+        //   element: <About></About>,
+        // },
+        // {
+        //   path: "/services",
+        //   element: <Services></Services>,
+        // },
+        // {
+        //   path: "/contact",
+        //   element: <Contact></Contact>,
+        // },
+        // {
+        //   path: "/profile",
+        //   element: <Profile></Profile>,
+        // },
         {
           path: "/login",
           element: <Login></Login>,
