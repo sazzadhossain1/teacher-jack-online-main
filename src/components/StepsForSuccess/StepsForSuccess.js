@@ -6,9 +6,9 @@ import logoThree from "../../accets/StepsForSuccessPhoto/logoThree.png";
 import logoFour from "../../accets/StepsForSuccessPhoto/logoFour.png";
 import join from "../../accets/StepsForSuccessPhoto/join.png";
 
-const StepsForSuccess = () => {
+const StepsForSuccess = ({ id }) => {
   return (
-    <div className="stepsForSuccess_parent_div">
+    <div className="stepsForSuccess_parent_div" id={id}>
       <div className="joinFirst_div">
         <img className="joinFirst" src={join} alt="" />
       </div>

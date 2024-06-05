@@ -35,6 +35,27 @@ const Navigation = () => {
       element.scrollIntoView({ behavior: "smooth" });
     }
   };
+  const handlePackagesClick = () => {
+    navigate("/#packages");
+    const element = document.getElementById("packages");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+  const handleStepsForSucessClick = () => {
+    navigate("/#how-it-works");
+    const element = document.getElementById("how-it-works");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+  const handleHomeCarouselClick = () => {
+    navigate("/#testimonials");
+    const element = document.getElementById("testimonials");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <div className="navigation_parent_div">
       <nav className={`navbar ${isActive ? "active" : ""}`}>
@@ -49,13 +70,13 @@ const Navigation = () => {
             <Link onClick={handleAboutClick}>About</Link>
           </li>
           <li className="navbar__item">
-            <Link>Packages</Link>
+            <Link onClick={handlePackagesClick}>Packages</Link>
           </li>
           <li className="navbar__item">
-            <Link>How it Works</Link>
+            <Link onClick={handleStepsForSucessClick}>How it Works</Link>
           </li>
           <li className="navbar__item">
-            <Link>Testimonials</Link>
+            <Link onClick={handleHomeCarouselClick}>Testimonials</Link>
           </li>
         </ul>
         <div className="navbar__user" onClick={userLoginFunction}>

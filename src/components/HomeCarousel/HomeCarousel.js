@@ -11,7 +11,7 @@ import photoFour from "../../accets/studentPhoto/photoFour.jpg";
 import photoFive from "../../accets/studentPhoto/photoFive.jpeg";
 import photoSix from "../../accets/studentPhoto/photoSix.jpg";
 
-const HomeCarousel = () => {
+const HomeCarousel = ({ id }) => {
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -78,7 +78,7 @@ const HomeCarousel = () => {
   ];
 
   return (
-    <div className="carousel_parent_div">
+    <div className="carousel_parent_div" id={id}>
       <h2 className="WhatStudents">What Students Say About Me</h2>
       <div className="carousel_div">
         <Carousel responsive={responsive}>

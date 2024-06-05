@@ -4,7 +4,7 @@ import ielts from "../../accets/PackagePhoto/ielts.jpg";
 import englishCourses from "../../accets/PackagePhoto/englishCourses.png";
 import usingEnglish from "../../accets/PackagePhoto/usingEnglish.png";
 
-const Packages = () => {
+const Packages = ({ id }) => {
   const packageDatas = [
     { id: 1, title: "Live classes", image: ielts, alt: "Live classes" },
     {
@@ -27,7 +27,7 @@ const Packages = () => {
     },
   ];
   return (
-    <div className="package_parent_div">
+    <div className="package_parent_div" id={id}>
       <h1 className="packages_title">Packages</h1>
       <div className="package_grid_div">
         {packageDatas.map((packageData) => (
